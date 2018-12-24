@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".giris_activity">
+
+
+    <TextView
+        android:text="Lütfen Kullanıcı Adınızı Giriniz :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <EditText
+        android:id="@+id/kullanıcıadı"
+        android:hint="Kullanıcı Adı"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+
+    <TextView
+        android:text="Lütfen Şifrenizi Giriniz :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+
+    <EditText
+        android:id="@+id/sifre"
+        android:hint="Şifre"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <Button
+        android:id="@+id/giriştuşu"
+        android:text="Giriş"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

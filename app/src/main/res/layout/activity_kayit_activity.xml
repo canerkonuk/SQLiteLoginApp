@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kayit_activity">
+
+    <TextView
+        android:text="Kullanıcı adı: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+
+    <EditText
+        android:hint="Kullanıcı adınızı giriniz..."
+        android:id="@+id/kullanıcıadıkayıt"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+
+
+    <TextView
+        android:text="Şifre"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:hint="Şifrenizi giriniz..."
+        android:id="@+id/sifrekayıt"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+
+
+    <TextView
+        android:text="E-mail:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+
+    <EditText
+        android:hint="E-mail giriniz..."
+        android:id="@+id/email"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+
+
+    <TextView
+        android:text="Cinsiyet:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+    <CheckBox
+        android:text="Kadın"
+        android:id="@+id/cinsiyet1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+
+    <CheckBox
+        android:text="Erkek"
+        android:id="@+id/cinsiyet2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+
+
+
+    <TextView
+        android:text="Çalışma Durumu:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_width="125dp"
+        android:layout_height="50dp" />
+
+
+    <Spinner
+        android:id="@+id/meslekler"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="400dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/kayıtbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Kayıt için basınız"/>
+
+
+
+
+</RelativeLayout>

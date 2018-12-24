@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SQLiteLoginApp</string>
+    
+    <string-array name="calisma_durumu">
+        <item>Öğrenci</item>
+        <item>Çalışıyor</item>
+        <item>Çalışmıyor</item>
+        <item>Emekli</item>
+
+    </string-array>
+
+
+
+</resources>
