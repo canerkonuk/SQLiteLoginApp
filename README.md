@@ -1,5 +1,5 @@
 # SQLiteLoginApp
-<h3>SQLite ile yapılmış basit bir kullanıcı kayıt uygulaması...</h3>
+<h3>SQLite ile yapılmış basit bir kullanıcı kayıt ve giriş uygulaması...</h3>
 
 <h5>Ekran görüntüleri için emulator olarak Nexus 6P API 24 kullanıldı.</h5>
 
